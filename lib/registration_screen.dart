@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'db_helper.dart';
-
+import 'main_screen.dart';
 
 class RegistrationScreen extends StatefulWidget {
-  const RegistrationScreen({super.key});
+  const RegistrationScreen({Key? key}) : super(key: key);
 
   @override
   _RegistrationScreenState createState() => _RegistrationScreenState();
